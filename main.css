@@ -1,0 +1,45 @@
+.embedded-link {
+  color: green;
+  text-decoration: none;
+  font-family: "Source Sans Pro", "Open Sans", Roboto, "San Francisco", Helvetica, Arial, sans-serif;
+}
+
+.home-banner {
+  background-color: #9fd891;
+}
+
+#main p {
+  font-size: 20px;
+}
+
+li:before {
+  content: '|';
+  /* padding: 0 .3em 0 .1em; */
+  color: #999;
+}
+
+/* li:first-child:before {
+  content: '';
+} */
+
+li.active:first-child:after {
+  margin-left: -14px;
+}
+
+.nav-item a {
+  text-decoration: none;
+}
+
+.nav-item {
+  color: #ccc;
+  padding: 0 8px;
+  text-decoration: none;
+}
+
+#navbar ul {
+  display: flex;
+}
+
+#header, #footer {
+  background-color: #333333;
+}
